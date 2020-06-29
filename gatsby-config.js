@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Raid Guild',
+    title: 'Vahanam',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'raid guild',
-        short_name: 'raid-guild',
+        name: 'vahanam',
+        short_name: 'vahanam',
         start_url: '/',
         background_color: '#000',
         theme_color: '#ff3864',

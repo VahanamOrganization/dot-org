@@ -34,8 +34,8 @@ const Layout = ({ children }) => (
               content:
                 'decentralized, ethereum, software development, dao, metacartel',
             },
-            { property: 'og:title', content: 'Raid Guild' },
-            { property: 'og:url', content: 'https://raidguild.org' },
+            { property: 'og:title', content: 'Vahanam' },
+            { property: 'og:url', content: 'https://vahanam.org' },
             {
               property: 'og:image',
               content: 'https://raidguild.org/images/raidguild_org.png',

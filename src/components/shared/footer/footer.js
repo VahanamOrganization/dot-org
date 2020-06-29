@@ -13,7 +13,7 @@ const Footer = ({ siteTitle }) => (
       <nav className="Nav">
         <a
           className="Nav__Link"
-          href="https://twitter.com/RaidGuild"
+          href="https://twitter.com/Vahanam1"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -29,7 +29,7 @@ const Footer = ({ siteTitle }) => (
         </a>
         <a
           className="Nav__Link"
-          href="https://github.com/orgs/raid-guild/"
+          href="https://github.com/VahanamOrganization/"
           rel="noopener noreferrer"
           target="_blank"
         >

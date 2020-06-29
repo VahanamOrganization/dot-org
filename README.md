@@ -1,4 +1,4 @@
-# raid-guild dot-org
+# Vahanam dot-org
 
 ## Quick start
 

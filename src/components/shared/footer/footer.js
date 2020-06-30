@@ -45,7 +45,7 @@ const Footer = ({ siteTitle }) => (
         </a>
         <a
           className="Nav__Link"
-          href="https://handbook.raidguild.org"
+          href="https://handbook.vahanam.org/"
           rel="noopener noreferrer"
           target="_blank"
         >

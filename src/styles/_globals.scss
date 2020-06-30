@@ -10,6 +10,9 @@ body {
   line-height: 1.5;
   background: $background-dark;
   font-weight: 400;
+  animation-name: example;
+  // animation-direction: alternate;
+  animation-duration: 3s;
 }
 
 p {
@@ -60,7 +63,7 @@ img {
   border: 2px solid $primary;
   color: $primary;
   background: transparent;
-  padding: 10px 15px 0px;
+  padding: 1px 15px 0px;
   display: inline-block;
   vertical-align: middle;
   border-radius: 5px;
@@ -106,6 +109,9 @@ iframe {
   align-items: center;
   justify-content: flex-start;
   background-color: rgba(0, 0, 0, 0.85);
+  // animation-name: example;
+  // // animation-direction: alternate;
+  // animation-duration: 4s;
   &.Sliver {
     min-height: 230px;
   }
@@ -116,6 +122,7 @@ iframe {
     width: calc(100% - 50px);
     height: calc(100% - 50px);
     border: 2px solid $primary;
+    border-radius: 12px;
     pointer-events: none;
   }
   &__Contents {
@@ -162,6 +169,33 @@ iframe {
       }
     }
   }
+}
+@keyframes example {
+  0% {
+    // background-color: red;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  // 25% {
+  //   //background-color: yellow;
+  //   left: 200px;
+  //   top: 0px;
+  // }
+  50% {
+    //background-color: blue;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  // 75% {
+  //   //background-color: green;
+  //   left: 0px;
+  //   top: 200px;
+  // }
+  // 100% {
+  //   //background-color: red;
+  //   left: 0px;
+  //   top: 0px;
+  // }
 }
 
 .Block {
@@ -239,7 +273,8 @@ iframe {
 // Blocks
 
 .Hire {
-  background-color: $primary;
+  background: linear-gradient(to bottom, #0080ff 3%, #00ff99 100%);
+
   h2 {
     color: black;
   }

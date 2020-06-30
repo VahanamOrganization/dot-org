@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mirza:400,500,600,700&display=swap');
 
 // Palette
-$primary: #ff3864;
+$primary: #66b3ff;
 $primary-hover: lighten($primary, 5%);
 
 //Media Queries
@@ -15,8 +15,8 @@ $tablet: 768px;
 $phone: 480px;
 
 // Typography
-$body-font: 'Mirza', serif;
-$heading-font: 'Uncial Antiqua', serif;
+$body-font: 'Times New Roman', Times, serif;
+$heading-font: 'Times New Roman', Times, serif;
 $body-font-size: 28px;
 
 // General Colors
